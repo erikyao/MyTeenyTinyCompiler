@@ -1,7 +1,7 @@
 import sys
-from lex import Lexer
-from parse import Parser
-from emit import Emitter
+from .lex import Lexer
+from .parse import Parser
+from .emit import Emitter
 
 
 def main():

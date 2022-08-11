@@ -1,6 +1,6 @@
 import sys
-from lex import TokenType, Lexer
-from emit import Emitter
+from .lex import TokenType, Lexer
+from .emit import Emitter
 
 """
 The entire grammar for our Teeny Tiny programming language:
